@@ -1,0 +1,14 @@
+{
+  "name": "twitterloginpage",
+  "version": "1.0.0",
+  "description": "twitter login page",
+  "main": "index.js",
+  "scripts": {
+    "build": " npx tailwindcss -i ./input.css -o ./public/css/styles.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
